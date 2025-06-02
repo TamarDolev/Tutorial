@@ -9,7 +9,7 @@ st.set_page_config(page_title="EV Market Analysis", layout="wide")
 
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/IEA-EV-dataEV-salesHistoricalCars.csv"
+    url = "https://raw.githubusercontent.com/TamarDolev/Tutorial/refs/heads/main/IEA-EV-dataEV%20salesHistoricalCars.csv"
     df = pd.read_csv(url)
     return df
 
